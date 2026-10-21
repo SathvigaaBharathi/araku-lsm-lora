@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches and checkpoints
+.pytest_cache/
+.ipynb_checkpoints/
+*.pt
+!models/geofm_lora/geofm_lora_weights.pt
+results/checkpoints/
+results/logs/
+
+# Environments and configs
+.env
+.env.template
+venv/
+env/
+.venv/
+
+# Scratch files and temporary artifacts
+*.docx
+*.tmp
+*.tmp.tif
+scratch/
+temp/
+generate_docx_explanation.py
+check_events.py
+PROJECT_REPORT_ARAKU_GEOFMLORA.md
+implementation.md
+reproduce_ladder*.bat
+reproduce_ladder*.ps1
+
+# Large raw satellite raster caches, intermediate logs, and models
+data/raw/
+data/interim/
+results/
+scripts/
+models/
+notebooks/

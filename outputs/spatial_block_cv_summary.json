@@ -1,0 +1,42 @@
+[
+  {
+    "model": "LoRA-Tabular (Calibrated)",
+    "roc_auc": 0.7834,
+    "pr_auc": 0.3273,
+    "brier_score": 0.0815,
+    "bss": 0.1083,
+    "evaluation_type": "out_of_fold_spatial_block_cv"
+  },
+  {
+    "model": "LoRA-Tabular (Raw)",
+    "roc_auc": 0.8158,
+    "pr_auc": 0.3277,
+    "brier_score": 0.0914,
+    "bss": 0.0005,
+    "evaluation_type": "out_of_fold_spatial_block_cv"
+  },
+  {
+    "model": "SVM (RBF Kernel)",
+    "roc_auc": 0.8013,
+    "pr_auc": 0.3939,
+    "brier_score": 0.0792,
+    "bss": 0.1337,
+    "evaluation_type": "out_of_fold_spatial_block_cv"
+  },
+  {
+    "model": "Random Forest Baseline",
+    "roc_auc": 0.7863,
+    "pr_auc": 0.2571,
+    "brier_score": 0.0890,
+    "bss": 0.0261,
+    "evaluation_type": "out_of_fold_spatial_block_cv"
+  },
+  {
+    "model": "XGBoost Baseline",
+    "roc_auc": 0.7295,
+    "pr_auc": 0.1994,
+    "brier_score": 0.0914,
+    "bss": 0.0008,
+    "evaluation_type": "out_of_fold_spatial_block_cv"
+  }
+]

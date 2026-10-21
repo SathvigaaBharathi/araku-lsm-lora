@@ -1,0 +1,6 @@
+model,roc_auc,pr_auc,brier_score,bss,evaluation_type
+LoRA-Tabular (Calibrated),0.7834,0.3273,0.0815,0.1083,out_of_fold_spatial_block_cv
+LoRA-Tabular (Raw),0.8158,0.3277,0.0914,0.0005,out_of_fold_spatial_block_cv
+SVM (RBF Kernel),0.8013,0.3939,0.0792,0.1337,out_of_fold_spatial_block_cv
+Random Forest Baseline,0.7863,0.2571,0.0890,0.0261,out_of_fold_spatial_block_cv
+XGBoost Baseline,0.7295,0.1994,0.0914,0.0008,out_of_fold_spatial_block_cv
